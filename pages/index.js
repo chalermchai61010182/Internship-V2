@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Register from "../pages/component/Register";
+import Register from "./src/Register";
+
+// const Wrapper = styled.div``;
 
 export default function Home() {
   return (
